@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if gte IE 8]><html class="ie ie8" lang="en-US"> <![endif]-->
+
+<html dir="ltr" lang="en-US">
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Google Fonts
+        ============================================= -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> 
+
+        <!-- Stylesheets
+        ============================================= -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/plugin.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+        <!-- JavaScripts
+        ============================================= -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <title>Home</title>
+    </head>
+
+    <body>
+
+        <!-- MAIN WRAPPER
+        ============================================= -->
+        <div id="main-wrapper" class="animsition clearfix">
+
+            <!-- HEADER
+            ============================================= -->
+            <header id="header" class="site-header transparent-header clearfix">
+
+                <div class="header-navigation">
+                    <div class="container">
+                        <div class="row">
+                            <div class="logo wow fadeInDown col-md-3" data-wow-delay="1s">
+                                <div class="logo-image">
+                                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                                </div>
+                            </div>
+
+                            <!-- MOBILE MENU START
+                            ============================================= -->
+                            <div class="mobile-menu wow fadeInDown" data-wow-delay="1s">
+                                <button id="slide-buttons" class="icon icon-navicon-round"></button>
+                            </div>
+
+                            <nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
+                              <button class="c-menu__close icon icon-remove-delete"></button>
+                                <ul class="menus-mobile">
+                                    <li><a href="index.html">首页</a></li>
+                                    <li><a href="room-detail.html">房间细节</a></li>
+                                    <li><a href="contact.html">联系我们</a></li>
+                                </ul>
+                      </nav>
+                          <div id="slide-overlay" class="slide-overlay"></div>
+                            <!-- MOBILE MENU END -->
+
+                            <div class="navigation wow fadeInDown col-md-9" data-wow-delay="1s">
+                                <nav id="main-menu" class="menu">
+                                    <ul id="menu-top-menu" class="menus">
+                                        <li class="active"><a href="index.html">Ho首页</a></li>
+                                        <li><a href="room-detail.html">房间细节</a></li>
+                                        <li><a href="contact.html">联系我们</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- HEADER END -->
+
+            <!-- SLIDER START
+            ============================================= -->
+            <section id="slider" class="flexslider-wrap fullscreen clearfix">
+                <div class="flexslider clearfix">
+                    <ul class="slides">
+                        <li data-thumb="img/content/slider/slide-sm-1.jpg">
+                            <img src="img/content/slider/slide-lg-1.jpg" alt="" />
+                        </li>
+                        <li data-thumb="img/content/slider/slide-sm-2.jpg">
+                            <img src="img/content/slider/slide-lg-2.jpg" alt="" />
+                        </li>
+                        <li data-thumb="img/content/slider/slide-sm-3.jpg">
+                            <img src="img/content/slider/slide-lg-3.jpg" alt="" />
+                        </li>
+                        <li data-thumb="img/content/slider/slide-sm-4.jpg">
+                            <img src="img/content/slider/slide-lg-4.jpg" alt="" />
+                        </li>
+                        <li data-thumb="img/content/slider/slide-sm-5.jpg">
+                            <img src="img/content/slider/slide-lg-5.jpg" alt="" />
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="slider-text-wrap vertical-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="slider-text wow fadeIn" data-wow-delay="0.5s">
+                                    <h2 class="wow fadeInLeft" data-wow-delay="1s">加普拉别墅</h2>
+                                    <p class="wow fadeIn" data-wow-delay="1.5s">123，靠近纽约沙默湖-10001</p>
+                                    <h3 class="wow fadeIn" data-wow-delay="2s">$1,799,000</h3>
+                                    <a href="contact.html" class="button-normal yellow wow fadeIn" data-wow-delay="2.5s">安排一场演出   </a>
+                                 </div>
+                            </div>
+
+                            <div class="slider-form col-md-4 wow fadeIn text-center" data-wow-delay="0.5s">
+                                <div class="form-wrap">
+                                    <div class="form-appointment">
+                                        <form method="post" action="contact.php">
+                                            <input type="text" name="name" id="name" placeholder="Name" />
+                                            <input type="text" name="email" id="email" placeholder="Email" />
+                                            <textarea name="message" id="message" cols="10" rows="2" placeholder="Message"></textarea>
+                                            <input type="text" id="datepicker" placeholder="Date">
+                                            <button class="button-normal yellow">预约</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SLIDER END -->
+
+            <!-- CONTENT START
+            ============================================= -->
+            <section id="content" class="homepage clearfix">
+
+                <!-- FEATURES START
+                ============================================= -->
+                <div class="features wrapper clearfix">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title text-center wow fadeIn">
+                                <p class="subtitle">关于房子的几句话</p>
+                                <h2><span class="bold"></span>  属性详细信息</h2>
+                            </div>
+
+                            <div class="features-list">
+                                <div class="features-item col-md-15 wow fadeIn text-center" data-wow-delay="0.3s">
+                                    <i class="icon icon-ruler"></i>
+                                    <h4>平方英尺</h4>
+                                    <p>2500</p>
+                                </div>
+
+                                <div class="features-item col-md-15 wow fadeIn text-center" data-wow-delay="0.6s">
+                                    <i class="icon icon-bed"></i>
+                                    <h4>卧室</h4>
+                                    <p>3</p>
+                                </div>
+
+                                <div class="features-item col-md-15 wow fadeIn text-center" data-wow-delay="0.9s">
+                                    <i class="icon icon-bath"></i>
+                                    <h4>卫生间</h4>
+                                    <p>4</p>
+                                </div>
+
+                                <div class="features-item col-md-15 wow fadeIn text-center" data-wow-delay="1.2s">
+                                    <i class="icon icon-calendar"></i>
+                                    <h4>制造年份
+
+t</h4>
+                                    <p>1996</p>
+                                </div>
+
+                                <div class="features-item col-md-15 wow fadeIn text-center" data-wow-delay="1.5s">
+                                    <i class="icon icon-car"></i>
+                                    <h4>车库</h4>
+                                    <p>2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FEATURES END -->
+
+                <!-- FACILITIES START
+                ============================================= -->
+                <div class="facilities clearfix" style="background-image: url(img/content/facilities/facilities.jpg);">
+
+                    <div class="facilities-detail wrapper wow fadeIn">
+                        <div class="title text-center">
+                            <h2><span class="bold"></span>设施 </h2>
+                            <h2>在加普拉别墅</h2>
+                    </div>
+
+                        <div class="facilities-content">
+                            <p class="intro">大量的升级和彻底的维护使这所房子处于最佳状态。硬木地板和新地毯创造了一个非常舒适的生活空间。</p>
+
+                            <div class="facilities-item">
+                                <h3>绝妙的景色</h3>
+                            </div>
+
+                            <div class="facilities-item">
+                                <h3>大型操场</h3>
+                            </div>
+
+                            <div class="facilities-item">
+                                <h3>安静的邻居</h3></p>
+                            </div>
+
+                            <div class="facilities-item">
+                                <h3>游泳池</h3>
+                            </div>
+                        </div>
+
+                        <a href="contact.html" class="button-normal yellow">联系我们</a>
+                    </div>
+                </div>
+                <!-- FACILITIES END -->
+
+                <!-- GALLERY START
+                ============================================= -->
+                <div class="gallery wrapper clearfix">
+                    <div class="container">
+
+                        <div class="title text-center wow fadeIn">
+                            <h2><span class="bold">房间</span></h2>
+                            <h2> 画廊</h2>
+                    </div>
+
+                        <section id="grid" class="grid clearfix">
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image1.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>客厅</h2>
+                                        <span>视图</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image2.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>餐厅</h2>
+                                        <span>View</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image3.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>厨房</h2>
+                                        <span>View</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image4.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>聊天室</h2>
+                                        <span>View</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image5.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>主卧室</h2>
+                                        <span>View</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image6.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>浴室</h2>
+                                        <span>View</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image7.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>书房</h2>
+                                        <span>View</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image8.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>剧院房间</h2>
+                                        <span>View</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="room-detail.html" class="wow fadeInUp" data-path-hover="M 0,0 0,38 90,58 180.5,38 180,0 z">
+                                <figure>
+                                    <img src="img/content/gallery/image9.jpg" />
+                                    <svg viewBox="0 0 180 500" preserveAspectRatio="none"><path d="M 0 0 L 0 182 L 90 126.5 L 180 182 L 180 0 L 0 0 z "></svg>
+                                    <figcaption>
+                                        <h2>车库</h2>
+                                        <span>View</span>                                    </figcaption>
+                                </figure>
+                            </a>
+                        </section>
+                    </div>
+                </div>
+                <!-- GALLERY END -->
+
+            </section>
+            <!-- CONTENT END -->
+            
+            <!-- FOOTER START
+            ============================================= -->
+            <footer id="footer" class="wrapper clearfix">
+                <div class="footer-text wow fadeIn text-center">
+                    <h1>想要更多信息吗？</h1>
+                    <a href="contact.html" class="button-normal yellow">联系我们</a>
+                </div>
+
+                <div class="footer-copyright wow fadeIn text-center">
+                    <div class="container">
+                        <div class="copyright">
+                            <ul class="footer-social">
+                                <li><a href="http://twitter.com"><i class="icon icon-twitter"></i></a></li>
+                                <li><a href="http://facebook.com"><i class="icon icon-facebook"></i></a></li>
+                                <li><a href="http://googleplus.com"><i class="icon icon-googleplus"></i></a></li>
+                                <li><a href="http://skype.com"><i class="icon icon-skype"></i></a></li>
+                                <li><a href="http://dribble.com"><i class="icon icon-dribble"></i></a></li>
+                            </ul>
+
+                            <p>2015年注册版权，保留所有权利，最好的主题</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- FOOTER END -->
+
+        </div>
+        <!-- MAIN WRAPPER END -->
+
+        <!-- Footer Scripts
+        ============================================= -->
+        <!-- External -->
+        <script type="text/javascript" src="js/plugin.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script>
+            (function() {
+    
+                function init() {
+                    var speed = 300,
+                        easing = mina.backout;
+
+                    [].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+                        var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+                            pathConfig = {
+                                from : path.attr( 'd' ),
+                                to : el.getAttribute( 'data-path-hover' )
+                            };
+
+                        el.addEventListener( 'mouseenter', function() {
+                            path.animate( { 'path' : pathConfig.to }, speed, easing );
+                        } );
+
+                        el.addEventListener( 'mouseleave', function() {
+                            path.animate( { 'path' : pathConfig.from }, speed, easing );
+                        } );
+                    } );
+                }
+
+                init();
+
+            })();
+        </script>
+
+    </body>
+</html>
